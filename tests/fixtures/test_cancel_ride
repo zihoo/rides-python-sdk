@@ -4,7 +4,7 @@ interactions:
     headers:
       Content-Length: ['0']
     method: !!python/unicode DELETE
-    uri: https://sandbox-api.uber.com/v1/requests/rideID-14f1c
+    uri: https://sandbox-api.uber.com.cn/v1/requests/rideID-14f1c
   response:
     body: {string: !!python/unicode ''}
     headers:

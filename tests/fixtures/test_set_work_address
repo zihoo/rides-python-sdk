@@ -5,7 +5,7 @@ interactions:
       Content-Length: ['34']
       content-type: [application/json]
     method: !!python/unicode PUT
-    uri: https://sandbox-api.uber.com/v1/places/work
+    uri: https://sandbox-api.uber.com.cn/v1/places/work
   response:
     body: {string: !!python/unicode '{"address":"1 Market St, San Francisco, CA 94105,
         USA"}'}

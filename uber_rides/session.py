@@ -52,7 +52,7 @@ class Session(object):
         Parameters
             sever_token (str)
                 Your application's server token. Available at
-                developer.uber.com.
+                developer.uber.com.cn.
             oauth2credential (OAuth2Credential)
                 Access token and additional OAuth 2.0 credentials used
                 to access protected resources.

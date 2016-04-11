@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/requests/rideID-14f1c/receipt
+    uri: https://sandbox-api.uber.com.cn/v1/requests/rideID-14f1c/receipt
   response:
     body: {string: !!python/unicode '{"distance":"1.87","normal_fare":"$10.56","charges":[{"amount":"2.25","type":"base_fare","name":"Base
         Fare"},{"amount":"2.25","type":"distance","name":"Distance"},{"amount":"2.25","type":"time","name":"Time"}],"charge_adjustments":[{"amount":"2.25","type":"safe_ride_fee","name":"Safe

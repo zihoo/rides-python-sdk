@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/places/work
+    uri: https://sandbox-api.uber.com.cn/v1/places/work
   response:
     body: {string: !!python/unicode '{"address":"1 Market St, San Francisco, CA 94105,
         USA"}'}

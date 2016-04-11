@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/me
+    uri: https://sandbox-api.uber.com.cn/v1/me
   response:
     body: {string: !!python/unicode '{"picture":"userprofile.jpeg","first_name":"User","last_name":"Profile","promo_code":"user-profile","email":"user@profile.com","uuid":"userprofileuuid"}'}
     headers:

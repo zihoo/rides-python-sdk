@@ -7,7 +7,7 @@ interactions:
       Content-Length: ['198']
       content-type: [application/json]
     method: !!python/unicode POST
-    uri: https://sandbox-api.uber.com/v1/requests/estimate
+    uri: https://sandbox-api.uber.com.cn/v1/requests/estimate
   response:
     body: {string: !!python/unicode '{"price":{"surge_confirmation_href":null,"high_estimate":26,"surge_confirmation_id":null,"minimum":15,"low_estimate":20,"surge_multiplier":1.0,"display":"$20-26","currency_code":"USD"},"trip":{"distance_unit":"mile","duration_estimate":600,"distance_estimate":2.02},"pickup_estimate":5}'}
     headers:

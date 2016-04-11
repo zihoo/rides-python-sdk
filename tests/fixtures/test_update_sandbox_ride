@@ -5,7 +5,7 @@ interactions:
       Content-Length: ['22']
       content-type: [application/json]
     method: !!python/unicode PUT
-    uri: https://sandbox-api.uber.com/v1/sandbox/requests/rideID-14f1c
+    uri: https://sandbox-api.uber.com.cn/v1/sandbox/requests/rideID-14f1c
   response:
     body: {string: !!python/unicode ''}
     headers:

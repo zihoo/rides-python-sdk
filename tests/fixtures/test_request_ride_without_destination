@@ -9,7 +9,7 @@ interactions:
       Content-Length: ['348']
       content-type: [application/json]
     method: !!python/unicode POST
-    uri: https://sandbox-api.uber.com/v1/requests
+    uri: https://sandbox-api.uber.com.cn/v1/requests
   response:
     body: {string: !!python/unicode '{"status":"processing","request_id":"rideID-14f1c","driver":null,"eta":null,"location":null,"vehicle":null,"surge_multiplier":1.0}'}
     headers:

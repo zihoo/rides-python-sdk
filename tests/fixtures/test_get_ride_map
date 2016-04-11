@@ -3,9 +3,9 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/requests/rideID-14f1c/map
+    uri: https://sandbox-api.uber.com.cn/v1/requests/rideID-14f1c/map
   response:
-    body: {string: !!python/unicode '{"href":"https:\/\/trip.uber.com\/-y-HO3YzT","request_id":"rideID-14f1c"}'}
+    body: {string: !!python/unicode '{"href":"https:\/\/trip.uber.com.cn\/-y-HO3YzT","request_id":"rideID-14f1c"}'}
     headers:
       connection: [keep-alive]
       content-language: [en]

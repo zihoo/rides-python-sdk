@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1.2/history
+    uri: https://sandbox-api.uber.com.cn/v1.2/history
   response:
     body: {string: !!python/unicode '{"count":100,"offset":0,"limit":5,"history":[{"status":"completed","distance":12.1028921947,"request_time":1441513360,"start_time":1441513662,"start_city":{"latitude":37.7749295,"display_name":"San
         Francisco","longitude":-122.4194155},"end_time":1441515066,"request_id":"5d41e768-5070-490b-8932-010befee810d","product_id":"a1111c8c-c720-46c3-8534-2fcdd730040d"},{"status":"completed","distance":15.0400157235,"request_time":1441498391,"start_time":1441498618,"start_city":{"latitude":37.7749295,"display_name":"San

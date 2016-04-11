@@ -40,7 +40,7 @@ EXPIRES_IN_SECONDS = 3000
 REFRESH_TOKEN = 'refreshToken-vsh91'
 SCOPES_STRING = 'profile history'
 SCOPES_SET = {'profile', 'history'}
-REDIRECT_URL = 'https://developer.uber.com/my-redirect_url'
+REDIRECT_URL = 'https://developer.uber.com.cn/my-redirect_url'
 
 
 @fixture

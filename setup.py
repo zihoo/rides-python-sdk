@@ -19,7 +19,7 @@ setup(
     url='https://github.com/uber/rides-python-sdk',
     license='MIT',
     author='Uber Technologies, Inc.',
-    author_email='christinek@uber.com',
+    author_email='christinek@uber.com.cn',
     install_requires=['requests', 'pyyaml'],
     tests_require=['pytest', 'mock', 'vcrpy'],
     keywords=['uber', 'api', 'sdk', 'rides', 'library'],

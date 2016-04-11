@@ -53,7 +53,7 @@ AUTHORIZATION_CODE = 'authCode-3x734'
 ACCESS_TOKEN = 'accessToken-194jd2'
 REFRESH_TOKEN = 'refreshToken-14du3n'
 REFRESHED_ACCESS_TOKEN = 'accessToken-34tns2'
-REDIRECT_URL = 'https://developer.uber.com/my-redirect_url'
+REDIRECT_URL = 'https://developer.uber.com.cn/my-redirect_url'
 
 SCOPES = {'profile', 'history'}
 EXPIRES_IN_SECONDS = 3000

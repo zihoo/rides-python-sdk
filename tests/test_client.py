@@ -44,7 +44,7 @@ CLIENT_SECRET = 'clientSecret-hv783s'
 SERVER_TOKEN = 'serverToken-Y4lb2'
 ACCESS_TOKEN = 'accessToken-34f21'
 REFRESH_TOKEN = 'refreshToken-vsh91'
-REDIRECT_URL = 'https://developer.uber.com/my-redirect_url'
+REDIRECT_URL = 'https://developer.uber.com.cn/my-redirect_url'
 SCOPES = {'profile', 'history'}
 
 # replace these with valid identifiers to rerecord request-related fixtures
@@ -67,7 +67,7 @@ UPDATE_LAT = 37.812
 UPDATE_LNG = -122.5
 PRODUCT_ID = 'd4abaae7-f4d6-4152-91cc-77523e8165a4'
 PRODUCTS_AVAILABLE = 5
-SURGE_HREF = 'api.uber.com/v1/surge-confirmations/{}'
+SURGE_HREF = 'api.uber.com.cn/v1/surge-confirmations/{}'
 
 EXPECTED_PRODUCT_KEYS = set([
     'capacity',

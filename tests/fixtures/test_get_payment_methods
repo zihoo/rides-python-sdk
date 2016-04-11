@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/payment-methods
+    uri: https://sandbox-api.uber.com.cn/v1/payment-methods
   response:
     body: {string: !!python/unicode '{"last_used":"payment-e1f4","payment_methods":[{"type":"business_account","description":"Uber","payment_method_id":"payment-93c7"},{"type":"visa","description":"***13","payment_method_id":"payment-e1f4"}]}'}
     headers:

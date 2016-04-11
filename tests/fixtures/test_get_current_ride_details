@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/requests/current
+    uri: https://sandbox-api.uber.com.cn/v1/requests/current
   response:
     body: {string: !!python/unicode '{"status":"processing","destination":{"latitude":37.7938462,"longitude":-122.3948366},"request_id":"rideID-14f1c","driver":null,"eta":null,"location":null,"vehicle":null,"surge_multiplier":1.0}'}
     headers:

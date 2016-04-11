@@ -148,7 +148,7 @@ class Request(object):
                 to the server.
 
         Example
-            request = Request(session, 'api.uber.com', 'GET', 'v1/profile')
+            request = Request(session, 'api.uber.com.cn', 'GET', 'v1/profile')
             response = request.execute()
         """
         prepared_request = self._prepare()

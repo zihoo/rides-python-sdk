@@ -2,7 +2,7 @@
 Uber Rides Python SDK
 *********************
 
-Python SDK (beta) to support the `Uber Rides API <https://developer.uber.com/>`_.
+Python SDK (beta) to support the `Uber Rides API <https://developer.uber.com.cn/>`_.
 
 Installation
 ------------
@@ -28,7 +28,7 @@ We recommend using `virtualenv <http://www.virtualenv.org/>`_ when setting up yo
 Read-Only Use
 -------------
 
-If you just need read-only access to Uber API resources, like getting a location’s available products, create a Session with the server token you received after `registering your app <https://developer.uber.com/dashboard>`_.
+If you just need read-only access to Uber API resources, like getting a location’s available products, create a Session with the server token you received after `registering your app <https://developer.uber.com.cn/dashboard>`_.
 
 .. code-block::
 
@@ -47,7 +47,7 @@ Use this Session to create an UberRidesClient and fetch API resources:
 Authorization
 -------------
 
-If you need to access protected resources or modify resources (like getting a user’s ride history or requesting a ride), you will need the user to grant access to your application through the OAuth 2.0 Authorization Code flow. See `Uber API docs <https://developer.uber.com/docs/authentication>`_. 
+If you need to access protected resources or modify resources (like getting a user’s ride history or requesting a ride), you will need the user to grant access to your application through the OAuth 2.0 Authorization Code flow. See `Uber API docs <https://developer.uber.com.cn/docs/authentication>`_. 
 
 The Authorization Code flow is a two-step authorization process. The first step is having the user authorize your app and the second involves requesting an OAuth 2.0 access token from Uber. This process is mandatory if you want to take actions on behalf of a user or access their information.
 
@@ -126,7 +126,7 @@ To develop and test against request endpoints in a sandbox environment, make sur
     client = UberRidesClient(session, sandbox_mode=True)
 
 
-The default for `sandbox_mode` is set to `False`. See our `documentation <https://developer.uber.com/docs/sandbox>`_ to read more about using the Sandbox Environment.
+The default for `sandbox_mode` is set to `False`. See our `documentation <https://developer.uber.com.cn/docs/sandbox>`_ to read more about using the Sandbox Environment.
 
 Update Sandbox Ride
 """""""""""""""""""
@@ -147,7 +147,7 @@ Getting help
 
 Uber developers actively monitor the `Uber Tag <http://stackoverflow.com/questions/tagged/uber-api>`_ on StackOverflow. If you need help installing or using the library, you can ask a question there. Make sure to tag your question with `uber-api` and `python`!
 
-For full documentation about our API, visit our `Developer Site <https://developer.uber.com/>`_.
+For full documentation about our API, visit our `Developer Site <https://developer.uber.com.cn/>`_.
 
 Contributing
 ------------

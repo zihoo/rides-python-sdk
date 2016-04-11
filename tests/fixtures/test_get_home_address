@@ -3,7 +3,7 @@ interactions:
     body: null
     headers: {}
     method: !!python/unicode GET
-    uri: https://sandbox-api.uber.com/v1/places/home
+    uri: https://sandbox-api.uber.com.cn/v1/places/home
   response:
     body: {string: !!python/unicode '{"address":"Lombard St, San Francisco, CA 94133,
         United States"}'}
